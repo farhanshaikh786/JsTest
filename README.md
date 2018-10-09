@@ -37,7 +37,7 @@ A) Make a file called - JsTest Inside the file copy and paste the following
       browser.sleep(5000)
       browser.navigate().back(); // Tell the browser to go back 
       });
-   });
+    });
    
    
 B) Make a new file called - conf.js Inside the file copy and paste the following
