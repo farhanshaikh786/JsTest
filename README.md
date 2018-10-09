@@ -42,13 +42,13 @@ A) Make a file called - JsTest Inside the file copy and paste the following
    
 B) Make a new file called - conf.js Inside the file copy and paste the following
 
-   exports.config = {
-   directConnect: true,
-   capabilities:{
-   'browserName': 'chrome'},
-   framework: 'jasmine2',
-   specs: ['test.js']
-   };
+      exports.config = {
+      directConnect: true,
+      capabilities:{
+      'browserName': 'chrome'},
+       framework: 'jasmine2',
+       specs: ['test.js']
+       };
    
 Now open a new terminal > Navigate to directory you created. cd JsTest > which should have two file you just created todo-spec.js and conf.js > now just run command protractor conf.js
 
