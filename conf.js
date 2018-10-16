@@ -4,7 +4,7 @@ exports.config = {
 		'browserName': 'chrome'
 	},
 		
-    seleniumAddress: 'http://localhost:4445/wd/hub',
+    seleniumAddress: 'http://localhost:4444/wd/hub',
 	specs: ['test.js']
 
 	};
